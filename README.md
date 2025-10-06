@@ -281,24 +281,6 @@ The Gradle test report shows:
 
 ---
 
-## 🎓 Scoring Breakdown
-
-| Criteria | Points | Status |
-|----------|--------|--------|
-| Web Form Automation Implementation | 10 | ✅ |
-| Table Scraping Implementation | 15 | ✅ |
-| GitHub Upload | - | ✅ |
-| .gitignore Configuration | 5 | ✅ |
-| Web Form Demo Video | 5 | ⏳ |
-| Table Scraping Demo Video | 5 | ⏳ |
-| Web Form Test Report | 5 | ⏳ |
-| Table Scraping Test Report | 5 | ⏳ |
-| **Total** | **50** | |
-
-**Legend:** ✅ Completed | ⏳ Pending (add your videos/screenshots)
-
----
-
 ## 📦 Dependencies
 
 All dependencies are managed via Gradle. Key dependencies include:
@@ -336,51 +318,6 @@ All dependencies are managed via Gradle. Key dependencies include:
    ./gradlew clean
    ./gradlew build --refresh-dependencies
    ```
-
----
-
-## 📧 Contact
-
-**Student Name:** [Your Name]  
-**Batch:** 16  
-**Assignment:** JUnit Automation  
-
----
-
-## 📄 License
-
-This project is created for educational purposes as part of the JUnit automation assignment.
-
----
-
-## ✅ Submission Checklist
-
-- [x] Code uploaded to GitHub
-- [x] .gitignore properly configured
-- [x] Web form automation video added to README (Google Drive)
-- [x] Table scraping automation video added to README (Google Drive)
-- [x] Web form test report screenshot added (Picture folder)
-- [x] Table scraping test report screenshot added (Picture folder)
-- [x] Test summary screenshot added (Picture folder)
-- [x] README.md completed with all details
-- [ ] GitHub repository link submitted
-
----
-
-### 📌 Notes
-
-- ✅ **Videos:** Demo videos are available on [Google Drive](https://drive.google.com/drive/folders/18gR_hlz3pffPhYQzGzAOCpGPRAoPBHwC)
-- ✅ **Screenshots:** All test report screenshots are in the `Picture/` folder
-  - `Test Summary index.png` - Overall test execution summary
-  - `WebFormTest.png` - Web form test results
-  - `WebFormTest output.png` - Web form test console output
-  - `TableScrapingTest.png` - Table scraping test results
-  - `TableScrapingTest output.png` - Table scraping test console output
-- ✅ **Browser:** Tests run with Brave browser (Chromium-based)
-- ✅ **Scraped Data:** Stock price data saved to `scraped-data/stock_prices.txt`
-- Make sure to replace `[Your Name]` with your actual name before submission
-- Run tests with: `./gradlew clean test`
-- View reports with: `open build/reports/tests/test/index.html`
 
 ---
 
